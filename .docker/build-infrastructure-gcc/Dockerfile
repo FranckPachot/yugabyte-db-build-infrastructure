@@ -6,7 +6,7 @@ FROM centos:7.9.2009
 
 ARG GCC_VERSION=9.4.0
 ARG GCC_MAKE_PARALLELISM=32
-ARG MVN_VERSION=3.8.4
+ARG MVN_VERSION=3.8.8
 
 COPY usr/local/bin/patch_postgres_h.sh /usr/local/bin/patch_postgres_h.sh
 COPY usr/local/bin/yb-first-pass-build.sh /usr/local/bin/yb-first-pass-build.sh
